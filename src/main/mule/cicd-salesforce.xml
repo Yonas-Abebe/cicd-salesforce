@@ -10,8 +10,8 @@ http://www.mulesoft.org/schema/mule/secure-properties http://www.mulesoft.org/sc
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="3fc2dfa3-cd29-4a9b-924c-105498b00a59" >
 		<http:listener-connection host="0.0.0.0" port="8081" />
 	</http:listener-config>
-	<salesforce:sfdc-config name="Salesforce_Config" doc:name="Salesforce Config" doc:id="c5d9f470-d25a-4b17-a064-a49bd8d3f5f4" >
-		<salesforce:basic-connection username="${salesforce.username}" password="${secure::salesforce.password}" securityToken="${secure::salesforce.token}" url="${salesforce.url}"/>
+	<salesforce:sfdc-config name="Salesforce_Config" doc:name="Salesforce Config" doc:id="d16d46c1-dfce-4a90-a1bf-0dd36c635e1d" >
+		<salesforce:basic-connection username="yonexo78@gmail.com" password="Redu2009*#*" securityToken="15Gtd2CrSy34jloTEJ72JL4V"/>
 	</salesforce:sfdc-config>
 	<global-property doc:name="Global Property" doc:id="70e61d52-66b8-40d7-b5e8-462ce8cec2b9" name="env" value="local" />
 	<configuration-properties doc:name="Configuration properties" doc:id="5d37c66c-bbc2-4bf8-8478-1d4d32773554" file="local.properties" />
