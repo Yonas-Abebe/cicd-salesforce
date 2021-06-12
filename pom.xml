@@ -35,7 +35,7 @@
 						<muleVersion>4.3.0</muleVersion>
 						<username>yoni2</username>
 						<password>Mayo7882*#*</password>
-						<applicationName>salesforce-query</applicationName>
+						<applicationName>cicd-salesforce</applicationName>
 						<environment>Sandbox</environment>
 						<workers>1</workers>
 						<workerType>MICRO</workerType>
